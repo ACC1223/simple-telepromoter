@@ -2,17 +2,23 @@
   "verticalBreakMarker": "|",
   "items": [
     {
-      "text": "这是默认竖排模式，超过一列会自动分成两列。",
+      "text": "\u82a6\u53f6\u6ee1\u6c40\u6d32\uff0c\u5bd2\u6c99\u5e26\u6d45\u6d41|\u4e8c\u5341\u5e74\u91cd\u8fc7\u5357\u697c",
       "mode": "vertical"
     },
     {
-      "text": "这里是竖排文本|这个符号后面的内容会强制切换到第二列。"
+      "text": "\u8fd9\u91cc\u662f\u7ad6\u6392\u6587\u672c|\u8fd9\u4e2a\u7b26\u53f7\u540e\u9762\u7684\u5185\u5bb9\u4f1a\u5f3a\u5236\u5207\u6362\u5230\u7b2c\u4e8c\u5217\u3002"
     },
     {
-      "text": "这是横向模式\n支持用\\n换行",
+      "text": "\u8fd9\u662f<size=72>\u6a2a\u5411</size>\u6a21\u5f0f\\n\u7b2c\u4e8c\u884c\u5b57\u53ef\u4ee5\u5355\u72ec\u8bbe\u5b9a<size=84>\u5b57\u53f7</size>",
       "mode": "horizontal",
-      "fontSize": 58,
-      "charSizes": [58, 58, 58, 58, 58, 58, 58, 58, 58, 58, 72, 72]
+      "fontSize": 40
+    },
+    {
+      "text": "<96>\u4e3b\u6807\u9898</>$<54>\u526f\u6807\u9898</>$<36>\u4f5c\u8005</>",
+      "mode": "title",
+      "fontSize": 72,
+      "columnGap": 96,
+      "columnGaps": [140, 48]
     }
   ]
 }
